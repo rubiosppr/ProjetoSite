@@ -16,17 +16,28 @@ nav {
     margin: 20px 0;
 }
 
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px 15px;
-    margin: 0 10px;
-    border-radius: 5px;
-    transition: background 0.3s;
+nav ul {
+    display: flex;
+    justify-content: space-around; /* Espaçamento igual entre os itens */
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    background-color: #f4f4f4; /* Cor de fundo opcional */
 }
 
-nav a:hover {
-    background: #e8491d;
+nav ul li {
+    margin: 0; /* Remove margens extras */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #333; /* Cor do texto */
+    padding: 10px 15px; /* Espaçamento interno dos links */
+    transition: color 0.3s ease; /* Transição suave para hover */
+}
+
+nav ul li a:hover {
+    color: #007BFF; /* Cor ao passar o mouse */
 }
 
 .container {
