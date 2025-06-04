@@ -3,44 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/styles.css">
-    <title>Apresentação do Produto</title>
+    <title>Página Inicial - Projeto Site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Menu -->
-    <div id="menu">
-        <!-- Include menu.html here -->
-        <!-- This will be replaced with the content of menu.html -->
-    </div>
-
     <header>
-        <h1>Bem-vindo à Nossa Apresentação de Produto</h1>
-        <p>Descubra nossos produtos e saiba mais sobre nós.</p>
+        <h1>Furiosos Cheerleading</h1>
+        <p>Eleve seu evento a outro nível!</p>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="pages/work.html">Junte-se a Nós</a>
+                <a href="pages/about.html">Sobre</a>
+                <a href="pages/products.html">Portifólio</a>
+                <a href="pages/contact.html">Contato</a>
+            </nav>
     </header>
-
     <main>
-        <section>
-            <h2>Nossos Produtos</h2>
-            <p>Explore nossa linha de produtos de alta qualidade.</p>
-            <div class="product-gallery">
-                <img src="../assets/images/product1.png" alt="Produto 1" class="product-image">
-                <img src="../assets/images/product2.png" alt="Produto 2" class="product-image">
-                <img src="../assets/images/product3.png" alt="Produto 3" class="product-image">
-                <img src="../assets/images/product4.png" alt="Produto 4" class="product-image">
-                <img src="../assets/images/product5.png" alt="Produto 5" class="product-image">
-                <img src="../assets/images/product6.png" alt="Produto 6" class="product-image">
-                <img src="../assets/images/product7.png" alt="Produto 7" class="product-image">
-                <img src="../assets/images/product8.png" alt="Produto 8" class="product-image">
-                <img src="../assets/images/product9.png" alt="Produto 9" class="product-image">
-                <img src="../assets/images/product10.png" alt="Produto 10" class="product-image">
-            </div>
-        </section>
+    <style>
+        body {
+            background-image: url('images/fundo.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-position-y: -50px;
+        }
+    </style>
+    <div style="display: flex; justify-content: center; align-items: center; height: 300px;">
+        <img src="images/logo.png" alt="Logo Furiosos Cheerleading" 
+        style="max-width: 100%; max-height: 500px; position: relative; top: 100px;">
+    </div>
+        </div>
     </main>
-
-    <!-- Footer -->
     <footer>
-        <!-- Include footer.html here -->
-        <!-- This will be replaced with the content of footer.html -->
+        &copy; Criado por Mateus Rubio Durão - mateusd@alunos.utfpr.edu.br
     </footer>
 </body>
 </html>
